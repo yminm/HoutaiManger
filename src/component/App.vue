@@ -1,6 +1,8 @@
 <template>
   <div>
       {{key}}
+      <!-- 根组件路由站位 将来通过url来控制页面展示 -->
+      <router-view></router-view>
   </div>
 
 </template>
