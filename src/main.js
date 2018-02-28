@@ -7,6 +7,8 @@ import 'normalize.css'
 import axios from 'axios'  //不是vue插件，导入之后只能在当前模块使用
 // 导入默认对象 可以随便起名字 导入有名字的对象 要用花括号包起来
 import api,{domain} from './js/api.js'
+import './less/index.less'
+
 
 Vue.use(ElementUI)
 // axios.get(domain+api.logout).then(()=> console.log("登出"));
